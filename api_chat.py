@@ -14,11 +14,11 @@ class LLMRemoteAPIChat:
             "required": {
                 "api_config": ("DICT",),
                 "system_prompt": ("STRING", {
-                    "default": "用户输入绘图提示词扩写系统提示词",
+                    "default": "荷花，中国女人，旗袍",
                     "multiline": True
                 }),
                 "user_prompt": ("STRING", {
-                    "default": "请扩写以下提示词：",
+                    "default": "作为一名资深的AI绘画提示词工程师，请根据用户提供的提示词生成一段详细的画面描述提示词。要求如下：\n 1：使用英语和人类自然语言输出。仅输出提示词信息，不做额外多余信息输出。",
                     "multiline": True
                 }),
                 "enable_history": ("BOOLEAN", {"default": False}),

@@ -50,8 +50,7 @@ pip install -r requirements.txt
 
 ## 工作流
 参见`workflows`目录。
-
-11111
+![](./workflows/workflow.png)
 
 ## 配置参数说明
 
@@ -63,21 +62,28 @@ pip install -r requirements.txt
 | api_key     | 认证密钥               |
 
 **pl-config.json**
+可以设置所有**OpenAI API标准协议**的LLM模型。如：DeepSeek、OpenAI、KIMI等。
 
 ```json
 {
   "models": [
     {
-      "name": "DeepSeek示例",
+      "name": "DeepSeek官方Chat API",
       "model": "deepseek-chat",
       "api_key": "your-api-key-here",
       "base_url": "https://api.deepseek.com"
     },
     {
-      "name": "自定义GPT",
-      "model": "gpt-4",
-      "api_key": "sk-your-key",
-      "base_url": "https://api.example.com/v1"
+      "name": "硅基DeepSeek-R1",
+      "model": "deepseek-ai/DeepSeek-R1",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.siliconflow.cn/v1"
+    },
+    {
+      "name": "硅基DeepSeek-V3",
+      "model": "deepseek-ai/DeepSeek-V3",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.siliconflow.cn/v1"
     }
   ]
 }

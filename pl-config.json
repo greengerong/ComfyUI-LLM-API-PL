@@ -1,13 +1,19 @@
 {
   "models": [
     {
-      "name": "DeepSeek官方chat API",
+      "name": "DeepSeek官方Chat API",
       "model": "deepseek-chat",
       "api_key": "your-api-key-here",
       "base_url": "https://api.deepseek.com"
     },
     {
-      "name": "硅基DeepSeek",
+      "name": "硅基DeepSeek-R1",
+      "model": "deepseek-ai/DeepSeek-R1",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.siliconflow.cn/v1"
+    },
+    {
+      "name": "硅基DeepSeek-V3",
       "model": "deepseek-ai/DeepSeek-V3",
       "api_key": "your-api-key-here",
       "base_url": "https://api.siliconflow.cn/v1"
