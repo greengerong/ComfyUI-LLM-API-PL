@@ -89,4 +89,4 @@ pip install -r requirements.txt
 }
 ```
 ## 联系作者
-![](./workflows/logo.png)
+![](./workflows/logo.jpg)
