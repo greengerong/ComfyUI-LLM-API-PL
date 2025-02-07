@@ -1,0 +1,16 @@
+{
+  "models": [
+    {
+      "name": "DeepSeek官方chat API",
+      "model": "deepseek-chat",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.deepseek.com"
+    },
+    {
+      "name": "硅基DeepSeek",
+      "model": "deepseek-ai/DeepSeek-V3",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.siliconflow.cn/v1"
+    }
+  ]
+}
