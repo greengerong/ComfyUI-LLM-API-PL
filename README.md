@@ -84,6 +84,12 @@ pip install -r requirements.txt
       "model": "deepseek-ai/DeepSeek-V3",
       "api_key": "your-api-key-here",
       "base_url": "https://api.siliconflow.cn/v1"
+    },
+    {
+      "name": "Kimi-moonshot-8K",
+      "model": "moonshot-v1-8k",
+      "api_key": "your-api-key-here",
+      "base_url": "https://api.moonshot.cn/v1"
     }
   ]
 }
